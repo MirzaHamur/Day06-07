@@ -1,0 +1,44 @@
+body {
+    font-family: "verdana", "sans-serif";
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    max-width: 960px;
+  }
+  
+  
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+  }
+  
+  .item {
+    width: 25%;
+    margin-bottom: 3rem;
+  }
+  
+  .item img {
+    width: 100%;
+  }
+  
+  
+  
+  .grid-container p {
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+  
+  .grid-container h4 {
+    text-align: left;
+    color: blue;
+  }
+  
+  .container h2 {
+    color: red;
+  }
